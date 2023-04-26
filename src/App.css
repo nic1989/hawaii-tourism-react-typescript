@@ -1,0 +1,93 @@
+body {
+  font-family: 'IBM Plex Mono', monospace;
+}
+h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #001A1A;
+}
+.navbar {
+  background: #FFF !important;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.btn-bg {
+  border-color: #60afaf;
+  background-color: #008080;
+  color: #FFF;
+}
+.btn-bg:hover {
+  border-color: #60afaf;
+  background-color: #008080;
+  color: #FFF;
+}
+.bg-slider {
+  background: url("../public/images/hawaii.jpg");
+  height: 100vh;
+  width: 100%;
+  margin-top: -70px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-slider-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+}
+
+.arrow-icon {
+  border-radius: 20px;
+  background-color: #E6F2F2;
+  color: #008080;
+  float: right;
+  width: 30px;
+  height: 30px;
+  padding: 0 7px;
+}
+
+.category-bg {
+  background-color: #E6F2F2;
+}
+
+.card-title {
+  color: #008080;
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.travel-title {
+  color: #001A1A;
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.bottom-round {
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+  border-radius: 5px;
+}
+.bg-none {
+  background: none;
+}
+.fs-xsmall {
+  font-size: 14px;
+}
+.btn-text-border {
+  border-color: #60afaf;
+  color: #008080;
+}
+.travel-guide-card {
+  background: #FFF;
+  padding: 10px;
+}
+.travel-guide-img {
+  border-radius: 50%;
+  float: right;
+}
